@@ -62,15 +62,15 @@ void Mesh::DoProcess()
     {
         std::vector<int> tri = m_vecTri[i];
         Triangle oTri(Node(tri[0]), Node(tri[0]), Node(tri[0]));
-        double ai = oTri.VecCoor(2, 1) * oTri.VecCoor(3, 2) - oTri.VecCoor(3, 1) * oTri.VecCoor(2, 2);
-        double bi = oTri.VecCoor(2, 2) - oTri.VecCoor(3, 2);
-        double ci = oTri.VecCoor(3, 1) - oTri.VecCoor(2, 1);
-        double aj = oTri.VecCoor(3, 1) * oTri.VecCoor(1, 2) - oTri.VecCoor(1, 1) * oTri.VecCoor(3, 2);
-        double aj = oTri.VecCoor(3, 2) - oTri.VecCoor(1, 2);
-        double aj = oTri.VecCoor(1, 1) - oTri.VecCoor(3, 1);
-        double am = oTri.VecCoor(1, 1) * oTri.VecCoor(2, 2) - oTri.VecCoor(2, 1) * oTri.VecCoor(1, 2);
-        double am = oTri.VecCoor(1, 2) - oTri.VecCoor(2, 2);
-        double am = oTri.VecCoor(2, 1) - oTri.VecCoor(1, 1);
+        double a1 = oTri.VecCoor(2, 1) * oTri.VecCoor(3, 2) - oTri.VecCoor(3, 1) * oTri.VecCoor(2, 2);
+        double b1 = oTri.VecCoor(2, 2) - oTri.VecCoor(3, 2);
+        double c1 = oTri.VecCoor(3, 1) - oTri.VecCoor(2, 1);
+        double a2 = oTri.VecCoor(3, 1) * oTri.VecCoor(1, 2) - oTri.VecCoor(1, 1) * oTri.VecCoor(3, 2);
+        double b2 = oTri.VecCoor(3, 2) - oTri.VecCoor(1, 2);
+        double c2 = oTri.VecCoor(1, 1) - oTri.VecCoor(3, 1);
+        double a3 = oTri.VecCoor(1, 1) * oTri.VecCoor(2, 2) - oTri.VecCoor(2, 1) * oTri.VecCoor(1, 2);
+        double b3 = oTri.VecCoor(1, 2) - oTri.VecCoor(2, 2);
+        double c3 = oTri.VecCoor(2, 1) - oTri.VecCoor(1, 1);
         std::vector<double> aiVec;
         std::vector<double> ajVec;
         std::vector<double> amVec;
