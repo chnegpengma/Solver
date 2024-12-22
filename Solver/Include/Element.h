@@ -17,6 +17,10 @@ public:
     {
 
     }
+
+
+    virtual double GetArea() = 0;
+    virtual Matrix<double> GetBaseMat() = 0;
 private:
     Type m_nType;
 };

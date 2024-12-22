@@ -12,11 +12,13 @@ public:
         const std::pair<double, double>& p1,
         const std::pair<double, double>& p2,
         const std::pair<double, double>& p3);
+    Triangle(Triangle oTri);
     ~Triangle();
 
-    double GetArea();
+    double GetArea() override;
+    Matrix<double> GetBaseMat() override;
 
-    double VecCoor(int row, int col);
+    double Vec(int row, int col);
 private:
     Matrix<double> m_data;
 };

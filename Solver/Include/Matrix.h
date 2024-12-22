@@ -13,6 +13,7 @@ public:
         m_nCol = 0;
         m_nRow = 0;
     }
+
     Matrix(int r, int c) {
         m_nRow = r;
         m_nCol = c;
@@ -21,13 +22,15 @@ public:
             m_data[i] = 0;
         }
     }
-    Matrix(Matrix<T>& mat){
+
+    Matrix(const Matrix<T>& mat){
         m_nRow = mat.m_nRow;
         m_nCol = mat.m_nCol;
         for (int i = 0; i < m_nRow * m_nCol; i++) {
             m_data[i] = mat.m_data[i];
         }
     }
+
     ~Matrix() {
         if (m_nRow * m_nCol > 0)
         {
@@ -65,8 +68,8 @@ public:
     int& nRow() { return m_nRow; }
     int& nCol() { return m_nCol; }
 
-    T& operator[](int i) { return m_data[i]; }
-    T& operator()(int i, int j) { return m_data[i - 1 + (j - 1) * m_nRow]; }
+    T& operator[](int i) const { return m_data[i]; }
+    T& operator()(int i, int j) const { return m_data[i - 1 + (j - 1) * m_nRow]; }
     
     template <typename E>
     Matrix<T>& operator=(const E& vec) {

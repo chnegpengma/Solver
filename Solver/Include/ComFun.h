@@ -1,10 +1,11 @@
 #pragma once
+#include "solver_global.h"
 
 class Node;
 
 namespace Algorithm
 {
-    class ComFun
+    class SOLVER_EXPORT ComFun
     {
     public:
         ComFun() {}

@@ -22,6 +22,18 @@ Triangle::Triangle(
     m_data(3, 2) = p3.second;
 }
 
+Triangle::Triangle(Triangle oTri)
+    : ELement(ELement::Type::Triangle)
+{
+    m_data.init(3, 2);
+    m_data(1, 1) = oTri.m_data(1, 1);
+    m_data(1, 2) = oTri.m_data(1, 2);
+    m_data(2, 1) = oTri.m_data(2, 1);
+    m_data(2, 2) = oTri.m_data(2, 2);
+    m_data(3, 1) = oTri.m_data(3, 1);
+    m_data(3, 2) = oTri.m_data(3, 2);
+}
+
 Triangle::~Triangle()
 {
 
@@ -39,7 +51,23 @@ double Triangle::GetArea()
     return ab(1) * ac(2) - ab(2) * ac(1);
 }
 
-double Triangle::VecCoor(int row, int col)
+Matrix<double> Triangle::GetBaseMat()
+{
+    Matrix<double> mat(3, 3);
+    mat(1, 1) = Vec(2, 1) * Vec(3, 2) - Vec(3, 1) * Vec(2, 2);
+    mat(1, 2) = Vec(2, 2) - Vec(3, 2);
+    mat(1, 3) = Vec(3, 1) - Vec(2, 1);
+    mat(2, 1) = Vec(3, 1) * Vec(1, 2) - Vec(1, 1) * Vec(3, 2);
+    mat(2, 2) = Vec(3, 2) - Vec(1, 2);
+    mat(2, 3) = Vec(1, 1) - Vec(3, 1);
+    mat(3, 1) = Vec(1, 1) * Vec(2, 2) - Vec(2, 1) * Vec(1, 2);
+    mat(3, 2) = Vec(1, 2) - Vec(2, 2);
+    mat(3, 3) = Vec(2, 1) - Vec(1, 1);
+    return mat;
+}
+
+double Triangle::Vec(int row, int col)
 {
     return m_data(row, col);
 }
+
