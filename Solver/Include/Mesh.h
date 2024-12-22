@@ -1,7 +1,9 @@
 #pragma once
+
 #include "Matrix.h"
 #include "Node.h"
 #include "IProcess.h"
+
 #include <vector>
 
 class Element;
@@ -18,6 +20,11 @@ public:
     int ElementSize();
 
     void DoProcess();
+
+    int GetNodeNum();
+    double* GetNodes();
+    const std::vector<std::pair<double, double>>& GetNodeVec();
+    const std::vector<std::vector<int>>& GetTri();
 private:
     double& NodeX(int id);
     double& NodeY(int id);
@@ -26,7 +33,7 @@ private:
 
 private:
     int m_num;
-    double* m_vecNodes = nullptr;
+    const std::vector<std::pair<double, double>>& m_vecNodes;
     std::vector<std::vector<int>> m_vecTri;
     Matrix<double> m_matElem;
 };

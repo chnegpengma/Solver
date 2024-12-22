@@ -14,3 +14,8 @@ SolverData::~SolverData()
         m_pMesh = nullptr;
     }
 }
+
+Mesh* SolverData::GetMeshPtr()
+{
+    return m_pMesh;
+}

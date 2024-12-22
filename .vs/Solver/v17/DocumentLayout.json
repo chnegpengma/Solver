@@ -3,28 +3,59 @@
   "WorkspaceRootPath": "D:\\workspace\\trunk\\Solver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\LaplacePrepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\LaplacePrepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Prepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Prepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\SolverData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Triangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Triangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\HelmholtzPrepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\HelmholtzPrepare.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\HelmholtzPrepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\HelmholtzPrepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\LaplacePrepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\LaplacePrepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\SolverData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\SolverData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\trunk\\MLayoutView\\TmcAlgorithm\\algo_global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\IProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,24 +66,8 @@
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\SolverData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\SolverData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Prepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Prepare.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\SolverData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Src\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -61,10 +76,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Element.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Element.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|solutionrelative:Solver\\Include\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F95E132F-2105-4BBB-B28F-CD8F3DEF553C}|Solver\\Solver.vcxproj|D:\\workspace\\trunk\\Solver\\Solver\\Include\\IMessage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -90,37 +101,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 143,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SolverData.cpp",
-              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp",
-              "RelativeDocumentMoniker": "Solver\\Src\\SolverData.cpp",
-              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp",
-              "RelativeToolTip": "Solver\\Src\\SolverData.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-15T09:53:28.323Z",
+              "DocumentIndex": 9,
+              "Title": "LaplacePrepare.h",
+              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\LaplacePrepare.h",
+              "RelativeDocumentMoniker": "Solver\\Include\\LaplacePrepare.h",
+              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\LaplacePrepare.h",
+              "RelativeToolTip": "Solver\\Include\\LaplacePrepare.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T11:54:41.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "LaplacePrepare.cpp",
+              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\LaplacePrepare.cpp",
+              "RelativeDocumentMoniker": "Solver\\Src\\LaplacePrepare.cpp",
+              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\LaplacePrepare.cpp",
+              "RelativeToolTip": "Solver\\Src\\LaplacePrepare.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-22T11:53:58.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "algo_global.h",
+              "DocumentMoniker": "D:\\workspace\\trunk\\MLayoutView\\TmcAlgorithm\\algo_global.h",
+              "RelativeDocumentMoniker": "..\\MLayoutView\\TmcAlgorithm\\algo_global.h",
+              "ToolTip": "D:\\workspace\\trunk\\MLayoutView\\TmcAlgorithm\\algo_global.h",
+              "RelativeToolTip": "..\\MLayoutView\\TmcAlgorithm\\algo_global.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T15:29:51.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Mesh.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Mesh.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\Mesh.cpp",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Mesh.cpp",
               "RelativeToolTip": "Solver\\Src\\Mesh.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAFIAAAAeAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-15T06:35:03.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "SolverData.cpp",
+              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp",
+              "RelativeDocumentMoniker": "Solver\\Src\\SolverData.cpp",
+              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\SolverData.cpp",
+              "RelativeToolTip": "Solver\\Src\\SolverData.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-15T09:53:28.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Node.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Node.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\Node.cpp",
@@ -128,25 +178,24 @@
               "RelativeToolTip": "Solver\\Src\\Node.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-15T06:17:50.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T06:17:50.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Mesh.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Mesh.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Mesh.h",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Mesh.h",
               "RelativeToolTip": "Solver\\Include\\Mesh.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-15T06:08:45.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IMessage.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\IMessage.h",
               "RelativeDocumentMoniker": "Solver\\Include\\IMessage.h",
@@ -154,12 +203,11 @@
               "RelativeToolTip": "Solver\\Include\\IMessage.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-15T05:44:23.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:44:23.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "IProcess.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\IProcess.h",
               "RelativeDocumentMoniker": "Solver\\Include\\IProcess.h",
@@ -167,38 +215,37 @@
               "RelativeToolTip": "Solver\\Include\\IProcess.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-15T05:43:21.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:43:21.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Node.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Node.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Node.h",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Node.h",
               "RelativeToolTip": "Solver\\Include\\Node.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-15T01:21:29.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "Matrix.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Matrix.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Matrix.h",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Matrix.h",
               "RelativeToolTip": "Solver\\Include\\Matrix.h",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwC4AAAANAAAA",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAhwO8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-15T01:19:22.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Element.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Element.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Element.h",
@@ -206,16 +253,11 @@
               "RelativeToolTip": "Solver\\Include\\Element.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T19:36:06.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+              "WhenOpened": "2024-12-14T19:36:06.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Triangle.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Triangle.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\Triangle.cpp",
@@ -228,46 +270,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SolverData.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\SolverData.h",
               "RelativeDocumentMoniker": "Solver\\Include\\SolverData.h",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\SolverData.h",
               "RelativeToolTip": "Solver\\Include\\SolverData.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-14T19:34:45.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Triangle.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Triangle.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Triangle.h",
               "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Triangle.h",
               "RelativeToolTip": "Solver\\Include\\Triangle.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-14T19:31:03.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Prepare.h",
-              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Prepare.h",
-              "RelativeDocumentMoniker": "Solver\\Include\\Prepare.h",
-              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Prepare.h",
-              "RelativeToolTip": "Solver\\Include\\Prepare.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "DocumentIndex": 8,
+              "Title": "HelmholtzPrepare.h",
+              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\HelmholtzPrepare.h",
+              "RelativeDocumentMoniker": "Solver\\Include\\HelmholtzPrepare.h",
+              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\HelmholtzPrepare.h",
+              "RelativeToolTip": "Solver\\Include\\HelmholtzPrepare.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-14T19:20:24.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
+              "Title": "HelmholtzPrepare.cpp",
+              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\HelmholtzPrepare.cpp",
+              "RelativeDocumentMoniker": "Solver\\Src\\HelmholtzPrepare.cpp",
+              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\HelmholtzPrepare.cpp",
+              "RelativeToolTip": "Solver\\Src\\HelmholtzPrepare.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-14T19:08:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\main.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\main.cpp",
@@ -275,12 +334,11 @@
               "RelativeToolTip": "Solver\\Src\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-14T19:20:09.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:20:09.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Matrix.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Matrix.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\Matrix.cpp",
@@ -292,21 +350,12 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Prepare.cpp",
-              "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Prepare.cpp",
-              "RelativeDocumentMoniker": "Solver\\Src\\Prepare.cpp",
-              "ToolTip": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Prepare.cpp",
-              "RelativeToolTip": "Solver\\Src\\Prepare.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-14T19:08:25.561Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Vector.cpp",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Src\\Vector.cpp",
               "RelativeDocumentMoniker": "Solver\\Src\\Vector.cpp",
@@ -314,12 +363,11 @@
               "RelativeToolTip": "Solver\\Src\\Vector.cpp",
               "ViewState": "AQIAAAgAAAAAAAAAAAAhwBwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-14T19:17:16.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:17:16.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Vector.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\Vector.h",
               "RelativeDocumentMoniker": "Solver\\Include\\Vector.h",
@@ -327,12 +375,11 @@
               "RelativeToolTip": "Solver\\Include\\Vector.h",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAOQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T19:17:47.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:17:47.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "solver_global.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\solver_global.h",
               "RelativeDocumentMoniker": "Solver\\Include\\solver_global.h",
@@ -340,12 +387,11 @@
               "RelativeToolTip": "Solver\\Include\\solver_global.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T19:18:06.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:18:06.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "OutputData.h",
               "DocumentMoniker": "D:\\workspace\\trunk\\Solver\\Solver\\Include\\OutputData.h",
               "RelativeDocumentMoniker": "Solver\\Include\\OutputData.h",
@@ -353,20 +399,7 @@
               "RelativeToolTip": "Solver\\Include\\OutputData.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T19:34:52.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-12-14T19:34:52.805Z"
             }
           ]
         }

@@ -1,6 +1,6 @@
 #include "Mesh.h"
 #include "Node.h"
-#include "Triangle.h"
+
 
 Mesh::Mesh()
 {
@@ -58,37 +58,19 @@ int Mesh::ElementSize()
 
 void Mesh::DoProcess()
 {
-    for (int i = 0; i < m_vecTri.size(); ++i)
-    {
-        std::vector<int> tri = m_vecTri[i];
-        Triangle oTri(Node(tri[0]), Node(tri[0]), Node(tri[0]));
-        double a1 = oTri.VecCoor(2, 1) * oTri.VecCoor(3, 2) - oTri.VecCoor(3, 1) * oTri.VecCoor(2, 2);
-        double b1 = oTri.VecCoor(2, 2) - oTri.VecCoor(3, 2);
-        double c1 = oTri.VecCoor(3, 1) - oTri.VecCoor(2, 1);
-        double a2 = oTri.VecCoor(3, 1) * oTri.VecCoor(1, 2) - oTri.VecCoor(1, 1) * oTri.VecCoor(3, 2);
-        double b2 = oTri.VecCoor(3, 2) - oTri.VecCoor(1, 2);
-        double c2 = oTri.VecCoor(1, 1) - oTri.VecCoor(3, 1);
-        double a3 = oTri.VecCoor(1, 1) * oTri.VecCoor(2, 2) - oTri.VecCoor(2, 1) * oTri.VecCoor(1, 2);
-        double b3 = oTri.VecCoor(1, 2) - oTri.VecCoor(2, 2);
-        double c3 = oTri.VecCoor(2, 1) - oTri.VecCoor(1, 1);
-        std::vector<double> aiVec;
-        std::vector<double> ajVec;
-        std::vector<double> amVec;
-
-    }
+    
 }
 
-double& Mesh::NodeX(int id)
-{
-    return m_vecNodes[id - 1];
-}
 
-double& Mesh::NodeY(int id)
+int Mesh::GetNodeNum()
 {
-    return m_vecNodes[id - 1].y();
+    return m_num;
 }
-
-std::pair<double, double> Mesh::Node(int id)
+const std::vector<std::pair<double, double>>& Mesh::GetNodeVec()
 {
-    return m_vecNodes[id - 1];
+
+}
+const std::vector<std::vector<int>>& Mesh::GetTri()
+{
+    return m_vecTri;
 }

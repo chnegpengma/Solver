@@ -15,6 +15,7 @@ public:
 
     std::vector<Node> GetNodes();
     std::vector<Triangle> GetTriangle();
+    Mesh* GetMeshPtr();
 
 private:
     Mesh* m_pMesh;

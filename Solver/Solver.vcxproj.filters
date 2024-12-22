@@ -18,7 +18,7 @@
     <ClCompile Include="Src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Src\Prepare.cpp">
+    <ClCompile Include="Src\HelmholtzPrepare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Src\Vector.cpp">
@@ -39,6 +39,9 @@
     <ClCompile Include="Src\SolverData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Src\LaplacePrepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Element.h">
@@ -53,7 +56,7 @@
     <ClInclude Include="Include\OutputData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Include\Prepare.h">
+    <ClInclude Include="Include\HelmholtzPrepare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\solver_global.h">
@@ -75,6 +78,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LaplacePrepare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

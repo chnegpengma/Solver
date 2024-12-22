@@ -19,11 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\LaplacePrepare.cpp" />
     <ClCompile Include="Src\main.cpp" />
     <ClCompile Include="Src\Matrix.cpp" />
     <ClCompile Include="Src\Mesh.cpp" />
     <ClCompile Include="Src\Node.cpp" />
-    <ClCompile Include="Src\Prepare.cpp" />
+    <ClCompile Include="Src\HelmholtzPrepare.cpp" />
     <ClCompile Include="Src\SolverData.cpp" />
     <ClCompile Include="Src\Triangle.cpp" />
     <ClCompile Include="Src\Vector.cpp" />
@@ -31,12 +32,13 @@
   <ItemGroup>
     <ClInclude Include="Include\Element.h" />
     <ClInclude Include="Include\IProcess.h" />
+    <ClInclude Include="Include\LaplacePrepare.h" />
     <ClInclude Include="Include\Matrix.h" />
     <ClInclude Include="Include\IMessage.h" />
     <ClInclude Include="Include\Mesh.h" />
     <ClInclude Include="Include\Node.h" />
     <ClInclude Include="Include\OutputData.h" />
-    <ClInclude Include="Include\Prepare.h" />
+    <ClInclude Include="Include\HelmholtzPrepare.h" />
     <ClInclude Include="Include\SolverData.h" />
     <ClInclude Include="Include\solver_global.h" />
     <ClInclude Include="Include\Triangle.h" />
