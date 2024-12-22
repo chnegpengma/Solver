@@ -18,7 +18,6 @@ void Mesh::fromFile(const char* filePath)
     int id, num, p1, p2, p3;
     double x, y;
     fopen_s(&file, filePath, "rb");
-    m_vecNodes = new double(num * 2);
     while (!feof(file))
     {
         while (strncmp(buf, "NODE", 4) != 0)
@@ -26,7 +25,7 @@ void Mesh::fromFile(const char* filePath)
             fgets(buf, 255, file);
         }
         fscanf_s(file, "%i\t%f\t%f\t", &num, &x, &y);
-
+        m_vecNodes.push_back(std::make_pair(x, y));
     }
 
     while (!feof(file))
@@ -58,7 +57,10 @@ int Mesh::ElementSize()
 
 void Mesh::DoProcess()
 {
-    
+    for (int i = 0; i < m_vecTri.size(); ++i)
+    {
+
+    }
 }
 
 
@@ -66,11 +68,18 @@ int Mesh::GetNodeNum()
 {
     return m_num;
 }
-const std::vector<std::pair<double, double>>& Mesh::GetNodeVec()
-{
 
+const std::vector<std::pair<double, double>>& Mesh::GetVecNode()
+{
+    return m_vecNodes;
 }
-const std::vector<std::vector<int>>& Mesh::GetTri()
+
+const std::vector<std::vector<int>>& Mesh::GetVecTri()
 {
     return m_vecTri;
+}
+
+const std::vector<std::vector<int>>& Mesh::GetVecEdge()
+{
+    return m_vecEdge;
 }

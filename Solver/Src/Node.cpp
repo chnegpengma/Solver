@@ -17,7 +17,13 @@ Node::~Node()
 
 }
 
-std::pair<double, double>& Node::GetNode()
+const std::pair<double, double>& Node::GetNode()
 {
     return std::make_pair(m_vecNode(1), m_vecNode(2));
+}
+
+Node& Node::operator=(Node oNode)
+{
+    double x = oNode.x();
+    double y = oNode.y();
 }

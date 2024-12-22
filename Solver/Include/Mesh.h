@@ -22,18 +22,14 @@ public:
     void DoProcess();
 
     int GetNodeNum();
-    double* GetNodes();
-    const std::vector<std::pair<double, double>>& GetNodeVec();
-    const std::vector<std::vector<int>>& GetTri();
-private:
-    double& NodeX(int id);
-    double& NodeY(int id);
-    std::pair<double, double> Node(int id);
+    const std::vector<std::pair<double, double>>& GetVecNode();
+    const std::vector<std::vector<int>>& GetVecTri();
+    const std::vector<std::vector<int>>& GetVecEdge();
 
 
 private:
     int m_num;
-    const std::vector<std::pair<double, double>>& m_vecNodes;
+    std::vector<std::pair<double, double>> m_vecNodes;
     std::vector<std::vector<int>> m_vecTri;
-    Matrix<double> m_matElem;
+    std::vector<std::vector<int>> m_vecEdge;
 };

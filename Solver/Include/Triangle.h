@@ -9,9 +9,9 @@ class SOLVER_EXPORT
 public:
     Triangle();
     Triangle(
-        std::pair<double, double> p1,
-        std::pair<double, double> p2,
-        std::pair<double, double> p3);
+        const std::pair<double, double>& p1,
+        const std::pair<double, double>& p2,
+        const std::pair<double, double>& p3);
     ~Triangle();
 
     double GetArea();

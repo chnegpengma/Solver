@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\ComFun.cpp" />
     <ClCompile Include="Src\LaplacePrepare.cpp" />
     <ClCompile Include="Src\main.cpp" />
     <ClCompile Include="Src\Matrix.cpp" />
@@ -30,6 +31,7 @@
     <ClCompile Include="Src\Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\ComFun.h" />
     <ClInclude Include="Include\Element.h" />
     <ClInclude Include="Include\IProcess.h" />
     <ClInclude Include="Include\LaplacePrepare.h" />

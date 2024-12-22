@@ -29,13 +29,13 @@ void LaplacePrepare::DoProcess()
     {
         return;
     }
-    const std::vector<std::vector<int>>& matTri = pMesh->GetTri();
+    const std::vector<std::vector<int>>& matTri = pMesh->GetVecTri();
     int num = pMesh->GetNodeNum();
-    double* pNode = pMesh->GetNodes();
+    const std::vector<std::pair<double, double>>& vecNode = pMesh->GetVecNode();
     for (int i = 0; i < matTri.size(); ++i)
     {
         std::vector<int> tri = matTri[i];
-        Triangle oTri(Node(tri[0]), tri[1], tri[2]);
+        Triangle oTri(vecNode[tri[0]], vecNode[tri[1]], vecNode[tri[2]]);
         double a1 = oTri.VecCoor(2, 1) * oTri.VecCoor(3, 2) - oTri.VecCoor(3, 1) * oTri.VecCoor(2, 2);
         double b1 = oTri.VecCoor(2, 2) - oTri.VecCoor(3, 2);
         double c1 = oTri.VecCoor(3, 1) - oTri.VecCoor(2, 1);

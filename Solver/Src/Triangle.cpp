@@ -8,9 +8,9 @@ Triangle::Triangle()
 }
 
 Triangle::Triangle(
-    std::pair<double, double> p1,
-    std::pair<double, double> p2,
-    std::pair<double, double> p3)
+    const std::pair<double, double>& p1,
+    const std::pair<double, double>& p2,
+    const std::pair<double, double>& p3)
     :ELement(ELement::Type::Triangle)
 {
     m_data.init(3, 2);

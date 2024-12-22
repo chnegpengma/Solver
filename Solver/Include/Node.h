@@ -11,7 +11,10 @@ public:
     double& x() { return m_vecNode(1); }
     double& y() { return m_vecNode(2); }
 
-    std::pair<double, double>& GetNode();
+    const std::pair<double, double>& GetNode();
+
+    Node& operator=(Node node);
 private:
     Vector<double> m_vecNode;
 };
+
