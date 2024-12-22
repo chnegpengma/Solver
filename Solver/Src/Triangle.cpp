@@ -22,16 +22,16 @@ Triangle::Triangle(
     m_data(3, 2) = p3.second;
 }
 
-Triangle::Triangle(Triangle oTri)
+Triangle::Triangle(const Triangle& oTri)
     : ELement(ELement::Type::Triangle)
 {
     m_data.init(3, 2);
-    m_data(1, 1) = oTri.m_data(1, 1);
-    m_data(1, 2) = oTri.m_data(1, 2);
-    m_data(2, 1) = oTri.m_data(2, 1);
-    m_data(2, 2) = oTri.m_data(2, 2);
-    m_data(3, 1) = oTri.m_data(3, 1);
-    m_data(3, 2) = oTri.m_data(3, 2);
+    m_data(1, 1) = oTri.Vec(1, 1);
+    m_data(1, 2) = oTri.Vec(1, 2);
+    m_data(2, 1) = oTri.Vec(2, 1);
+    m_data(2, 2) = oTri.Vec(2, 2);
+    m_data(3, 1) = oTri.Vec(3, 1);
+    m_data(3, 2) = oTri.Vec(3, 2);
 }
 
 Triangle::~Triangle()
@@ -66,7 +66,7 @@ Matrix<double> Triangle::GetBaseMat()
     return mat;
 }
 
-double Triangle::Vec(int row, int col)
+double Triangle::Vec(int row, int col) const
 {
     return m_data(row, col);
 }
