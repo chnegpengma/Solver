@@ -26,6 +26,7 @@
     <ClCompile Include="Src\Mesh.cpp" />
     <ClCompile Include="Src\Node.cpp" />
     <ClCompile Include="Src\HelmholtzPrepare.cpp" />
+    <ClCompile Include="Src\PoissionPrepare.cpp" />
     <ClCompile Include="Src\SolverData.cpp" />
     <ClCompile Include="Src\Triangle.cpp" />
     <ClCompile Include="Src\Vector.cpp" />
@@ -41,6 +42,7 @@
     <ClInclude Include="Include\Node.h" />
     <ClInclude Include="Include\OutputData.h" />
     <ClInclude Include="Include\HelmholtzPrepare.h" />
+    <ClInclude Include="Include\PoissonPrepare.h" />
     <ClInclude Include="Include\SolverData.h" />
     <ClInclude Include="Include\solver_global.h" />
     <ClInclude Include="Include\Triangle.h" />

@@ -69,8 +69,8 @@ public:
         return res;
     }
 
-    T& operator[](int i) { return m_data[i]; }
-    T& operator()(int i) { return m_data[i - 1]; }
+    T& operator[](int i) const { return m_data[i]; }
+    T& operator()(int i) const { return m_data[i - 1]; }
     template<typename E>
     Vector<T>& operator=(const E& vec) {
         for (int i = 0; i < m_num; i++)

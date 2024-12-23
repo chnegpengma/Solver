@@ -26,4 +26,5 @@ Node& Node::operator=(Node oNode)
 {
     double x = oNode.x();
     double y = oNode.y();
+    return *this;
 }
