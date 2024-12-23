@@ -55,6 +55,5 @@ void PoissonPrepare::DoProcess()
         matK(3, 2) = matK(2, 3);
         matK(3, 3) = (b3 * b3 + c3 * c3) / (4 * oTri.GetArea());
 
-
     }
 }
