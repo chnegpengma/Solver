@@ -90,7 +90,5 @@ void HelmholtzPrepare::DoProcess()
             + (x1 * y1 + x2 * y2 + x3 * y3) * (b3 * c2 + b2 * c3) / 12 + (y1 * y1 + y2 * y2 + y3 * y3) * c3 * c2 / 12);
         matH(3, 3) = (a3 * a3 + (x1 * x1 + x2 * y2 + x3 * y3) * b3 * b3 / 12
             + (x1 * y1 + x2 * y2 + x3 * y3) * b3 * c3 / 6 + (y1 * y1 + y2 * y2 + y3 * y3) * c3 * c3 / 12);
-
-
     }
 }
